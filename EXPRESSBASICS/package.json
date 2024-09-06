@@ -1,0 +1,14 @@
+{
+  "name": "expressbasics",
+  "version": "1.0.0",
+  "description": "Expree Basics Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sai Teja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

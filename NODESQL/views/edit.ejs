@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit the data</title>
+</head>
+<body>
+    <h1>Edit Username : <%= data.username %></h1>
+    <form action="http://localhost:8080/user/<%=data.userId%>?_method=PATCH" method="post">
+        <label for="username">Edit Username : </label><br>
+        <textarea name="username" id="username" placeholder="Edit Username"></textarea>
+        <br>
+        <label for="pass">Password : </label><br>
+        <input type="password" name="password" id="pass" placeholder="Enter Password"><br>
+        <button type="submit">Edit Form</button>
+    </form>
+</body>
+</html>
